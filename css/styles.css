@@ -363,6 +363,7 @@ section.perfil-container .texto-perfil p{
 #footer {
   text-align: center;
   color: var(--secondary);
+  background: wheat;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -388,8 +389,17 @@ section.perfil-container .texto-perfil p{
   font-weight: bold;
 }
 
-footer2 {
-  padding: 0 10px;
+#footer .icons i{
+  font-size: 2rem;
+  color: var(--primary);
+  padding: 10px 10px;
+  text-shadow: #000 1px 1px 1px;
+}
+
+#footer .icons i:hover{
+  font-size: 2.2rem;
+  color: var(--secondary);
+  
 }
 
 footer2 p{
@@ -402,6 +412,11 @@ footer2 p{
 
 footer2 p > a{
   text-decoration: none;
+  color: white;
+}
+
+footer2 p > a:hover{
+    color: #ffcc00;
 }
 
 /* =============== MOBILE ============= */
