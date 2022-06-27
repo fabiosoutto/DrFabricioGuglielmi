@@ -12,6 +12,22 @@
   padding: 0;
 }
 
+/* ========== navbar ==========   */ 
+.navbar{
+  background: #95989a;
+}
+
+.navbar-brand{
+  text-shadow: #000;
+}
+
+.nav-link{
+  color: #000;
+}
+
+.nav-link:hover{
+  color: white;
+}
 
 /* ===== Event form ===== */
 #event-subscription {
@@ -19,7 +35,7 @@
     url("../img/lady-justice.jpg");
   background-position: center;
   background-size: cover;
-  height: 85vh;
+  /*height: 85vh;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -56,7 +72,8 @@
 #subscription-form {
   background-color: var(--secondary);
   padding: 2em;
-  max-width: 22%;
+  max-width: 30%;
+  border: 1px solid #000;
 }
 
 #subscription-form p {
@@ -109,6 +126,8 @@
 .btn:hover {
   opacity: 1;
   font-size: medium;
+  background-color: #000;
+  color: white;
 }
 
 /* ==== Benefits section ==== */
@@ -123,7 +142,7 @@
   display: flex;
   justify-content: space-around;
   padding: 4em;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -258,7 +277,7 @@
 
 /* ===== Perfil Container ===== */
 .container{
-	max-width: 1280px;
+	max-width: 1400px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -341,21 +360,22 @@ section.perfil-container .texto-perfil p{
 
 #btntop{
 	position: fixed;
-	bottom: 40px;
-	right: 30px;
+	bottom: 150px;
+	right: 35px;
 	height: 50px;
 	width: 50px;
 	color: #ccc;
-	background: #124265;
+	background: var(--primary);
 	border: none;
 	border-radius: 50vh;
 	display: none;
 	scroll-behavior: smooth;
-    cursor: pointer;
+  cursor: pointer;
+  font-size: 2rem;
 }
 
 #btntop:hover{
-    background: #1e5a88;
+    background: var(--text-secondary);
 }
 
 /* ==== Footer ==== */
@@ -363,8 +383,7 @@ section.perfil-container .texto-perfil p{
 #footer {
   text-align: center;
   color: var(--secondary);
-  background: wheat;
-  height: 350px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -443,7 +462,7 @@ footer2 p > a:hover{
   }
 
   #subscription-form {
-    max-width: 70%;
+    max-width: 90%;
     margin-bottom: 2em;
   }
 
@@ -474,8 +493,8 @@ footer2 p > a:hover{
     max-width: 100%;
   }
 
-  #address i {
-    margin: 0.3em 0;
+  #address-details{
+    font-size: 1rem;
   }
 
   #about-location {
@@ -549,9 +568,12 @@ footer2 p > a:hover{
 
   section.perfil-container .texto-perfil{
     display: inline-block;
-    text-align: justify;
     width: 90%;
     padding:80px 30px 30px 30px;
+  }
+
+  section.perfil-container .texto-perfil h2{
+     font-size: 20px;
   }
 
 
