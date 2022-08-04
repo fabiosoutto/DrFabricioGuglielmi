@@ -306,9 +306,9 @@ section.perfil-container .perfil-wraper2{
 }
 
 section.perfil-container .img-perfil{
-	width: 40%;
+	width: 60%;
 	height: 100%;
-	background-image: url('../img/img_perfil.jpg');
+	background-image: url('../img/DrFabricio.JPG');
 	background-size: 100% 100%;
 }
 
@@ -560,7 +560,7 @@ footer2 p > a:hover{
   }
 
   section.perfil-container .img-perfil{
-  width: 50%;
+  width: 70%;
   padding-top:70%;
   display: inline-block;
   height: auto;
@@ -569,7 +569,7 @@ footer2 p > a:hover{
   section.perfil-container .texto-perfil{
     display: inline-block;
     width: 90%;
-    padding:80px 30px 30px 30px;
+    padding:30px 30px 30px 30px;
   }
 
   section.perfil-container .texto-perfil h2{
@@ -580,6 +580,10 @@ footer2 p > a:hover{
   /* Call to Action Section */
   #cta .btn {
     width: 80%;
+  }
+
+  #cta h3 {
+    font-size: 1.7em;
   }
 
   footer2 p{
