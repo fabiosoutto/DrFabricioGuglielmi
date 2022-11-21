@@ -12,20 +12,28 @@
   padding: 0;
 }
 
-/* ========== navbar ==========   */ 
-.navbar{
+.lgpd {
+  padding: 25px;
+}
+
+.form-group input checkbox {
+  align-items: left;
+}
+
+/* ========== navbar ==========   */
+.navbar {
   background: #95989a;
 }
 
-.navbar-brand{
+.navbar-brand {
   text-shadow: #000;
 }
 
-.nav-link{
+.nav-link {
   color: #000;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: white;
 }
 
@@ -102,14 +110,14 @@
   outline: none;
 }
 
-.form-group textarea{
+.form-group textarea {
   width: 100%;
-	font-size: 15px;
-	height: 150px;
+  font-size: 15px;
+  height: 150px;
   margin-top: 10px;
   border: none;
   border-radius: 5px;
-	resize: vertical;
+  resize: vertical;
 }
 
 .btn {
@@ -276,57 +284,57 @@
 }
 
 /* ===== Perfil Container ===== */
-.container{
-	max-width: 1400px;
-	width: 100%;
-	margin: 0 auto;
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-section.perfil-container{
-	padding:40px 0;
+section.perfil-container {
+  padding: 40px 0;
 }
 
-section.perfil-container .container{
-	max-width: 1000px;
+section.perfil-container .container {
+  max-width: 1000px;
 }
 
-section.perfil-container .perfil-wraper{
-	padding-top:50%;
-	position: relative;
+section.perfil-container .perfil-wraper {
+  padding-top: 50%;
+  position: relative;
 }
 
-section.perfil-container .perfil-wraper2{
-	position: absolute;
-	left: 0;
-	top: 0;
-	display: flex;
-	align-items: center;
-	width: 100%;
-	height: 100%;
+section.perfil-container .perfil-wraper2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
-section.perfil-container .img-perfil{
-	width: 60%;
-	height: 100%;
-	background-image: url('../img/DrFabricio.JPG');
-	background-size: 100% 100%;
+section.perfil-container .img-perfil {
+  width: 60%;
+  height: 100%;
+  background-image: url('../img/DrFabricio.JPG');
+  background-size: 100% 100%;
 }
 
-section.perfil-container .texto-perfil{
-	width: 60%;
-	padding:0 30px;
+section.perfil-container .texto-perfil {
+  width: 60%;
+  padding: 0 30px;
 }
 
-section.perfil-container .texto-perfil h2{
+section.perfil-container .texto-perfil h2 {
   color: var(--primary);
-	 font-size: 25px;
+  font-size: 25px;
 }
 
-section.perfil-container .texto-perfil p{
-	color: black;
-	font-size: 14px;
-	margin-top:8px;
-	line-height: 24px;
+section.perfil-container .texto-perfil p {
+  color: black;
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 24px;
 }
 
 /* ==== Call to Action Section ==== */
@@ -358,24 +366,24 @@ section.perfil-container .texto-perfil p{
 
 /*  ==== BOTÃO VOLTAR AO TOPO  ==== */
 
-#btntop{
-	position: fixed;
-	bottom: 150px;
-	right: 35px;
-	height: 50px;
-	width: 50px;
-	color: #ccc;
-	background: var(--primary);
-	border: none;
-	border-radius: 50vh;
-	display: none;
-	scroll-behavior: smooth;
+#btntop {
+  position: fixed;
+  bottom: 150px;
+  right: 35px;
+  height: 50px;
+  width: 50px;
+  color: #ccc;
+  background: var(--primary);
+  border: none;
+  border-radius: 50vh;
+  display: none;
+  scroll-behavior: smooth;
   cursor: pointer;
   font-size: 2rem;
 }
 
-#btntop:hover{
-    background: var(--text-secondary);
+#btntop:hover {
+  background: var(--text-secondary);
 }
 
 /* ==== Footer ==== */
@@ -408,40 +416,41 @@ section.perfil-container .texto-perfil p{
   font-weight: bold;
 }
 
-#footer .icons i{
+#footer .icons i {
   font-size: 2rem;
   color: var(--primary);
   padding: 10px 10px;
   text-shadow: #000 1px 1px 1px;
 }
 
-#footer .icons i:hover{
+#footer .icons i:hover {
   font-size: 2.2rem;
   color: var(--secondary);
-  
+
 }
 
-footer2 p{
+footer2 p {
   background-color: var(--secondary);
   color: var(--text-color);
   text-align: center;
   padding: 10px;
-  
+
 }
 
-footer2 p > a{
+footer2 p>a {
   text-decoration: none;
   color: white;
 }
 
-footer2 p > a:hover{
-    color: #ffcc00;
+footer2 p>a:hover {
+  color: #ffcc00;
 }
 
 /* =============== MOBILE ============= */
 /* =============== Mobile ============= */
 
 @media (max-width: 768px) {
+
   /* Event form */
   #event-subscription {
     flex-direction: column;
@@ -493,7 +502,7 @@ footer2 p > a:hover{
     max-width: 100%;
   }
 
-  #address-details{
+  #address-details {
     font-size: 1rem;
   }
 
@@ -526,7 +535,7 @@ footer2 p > a:hover{
     display: none;
   }
 
-  #detail-1 h3{
+  #detail-1 h3 {
     font-size: 2em;
   }
 
@@ -544,36 +553,37 @@ footer2 p > a:hover{
 
   /*  === perfil container ===*/
 
-  section.perfil-container .img-perfil{
-		width: 80%;
-		padding-top:110%;
-	}
-  section.perfil-container .perfil-wraper{
+  section.perfil-container .img-perfil {
+    width: 80%;
+    padding-top: 110%;
+  }
+
+  section.perfil-container .perfil-wraper {
     padding-top: 0;
   }
 
-  section.perfil-container .perfil-wraper2{
+  section.perfil-container .perfil-wraper2 {
     height: auto;
     position: static;
     text-align: center;
     display: inline-block;
   }
 
-  section.perfil-container .img-perfil{
-  width: 70%;
-  padding-top:70%;
-  display: inline-block;
-  height: auto;
+  section.perfil-container .img-perfil {
+    width: 70%;
+    padding-top: 70%;
+    display: inline-block;
+    height: auto;
   }
 
-  section.perfil-container .texto-perfil{
+  section.perfil-container .texto-perfil {
     display: inline-block;
     width: 90%;
-    padding:30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
   }
 
-  section.perfil-container .texto-perfil h2{
-     font-size: 20px;
+  section.perfil-container .texto-perfil h2 {
+    font-size: 20px;
   }
 
 
@@ -586,7 +596,7 @@ footer2 p > a:hover{
     font-size: 1.7em;
   }
 
-  footer2 p{
+  footer2 p {
     font-size: 0.7em;
   }
 }

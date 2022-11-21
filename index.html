@@ -1,244 +1,261 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
-    <meta name="description" content="Advocacia e Assessoria Jurídica em gravataí RS">
-    <meta name="keywords" content="advogado,advocacia,assessoria,jurídica,Gravataí-RS">
-    <meta name="author" content="Fabio Soutto Desenvolvedor Web" />
-    <title>Dr. Fabrício Guglielmi | Advogados Associados</title>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- Text font -->
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Icons Font -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
-    />
-  </head>
-  <body>
 
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./img/justice-36x36.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link"  href="#">Início</a>
-            <a class="nav-link" href="#key-benefits">Serviços</a>
-            <a class="nav-link" href="#sobre">Sobre</a>
-            <a class="nav-link" href="#footer">Contato</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+  <meta name="description" content="Advocacia e Assessoria Jurídica em gravataí RS">
+  <meta name="keywords" content="advogado,advocacia,assessoria,jurídica,Gravataí-RS">
+  <meta name="author" content="Fabio Soutto Desenvolvedor Web" />
+  <title>Dr. Fabrício Guglielmi | Advogados Associados</title>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Text font -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Icons Font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+</head>
 
-    <header id="event-subscription">
-      <div id="disclaimer">
-        <h2>Fabrício Guglielmi Advocacia</h2>
-        <p class="about-event">
-          Assessoria Jurídica em Gravataí-RS
-        </p>
-        <p>Dr. Fabrício Guglielmi</p>
-        <p class="event-date">OAB/RS: 123.726</p>
-      </div>
-      <div id="subscription-form">
-        <p>Preencha o formulário e solicite uma consulta</p>
-        <form action="https://formsubmit.co/advfabricioguglielmi@hotmail.com" method="POST">
-          <div class="form-group">
-            <input type="text" placeholder="Digite seu nome" required/>
-          </div>
-          <div class="form-group">
-            <input type="email" placeholder="Digite seu melhor e-mail" required/>
-          </div>
-          <div class="form-group">
-            <input type="text" placeholder="Número de Whatsapp" required/>
-          </div>
-          <div class="form-group">
-            <select name="interest" required>
-              <option value="" disabled selected>Selecione</option>
-              <option value="civil">Direito Civil</option>
-              <option value="penal">Direito Penal</option>
-              <option value="consumidor">Direito do Consumidor</option>
-              <option value="familia">Direito de Família</option>
-              <option value="other">Outros assuntos</option>
-            </select>
-            <textarea name="msg" id="msg" placeholder="Digite sua mensagem:" required></textarea>
-          </div>
-          <input type="submit" class="btn" value="Quero uma consulta" />
-          <input type="hidden" name="_next" value="https://fabricioguglielmi.vercel.app">
-        </form>
-      </div>
-    </header>
-    <section id="key-benefits">
-      <h2>Advocacia e Assistência Jurídica nas seguintes áreas:</h2>
-      <div class="benefits">
-        <div class="benefit">
-          <div id="benefit-1" class="benefit-img"></div>
-          <p>
-            Direito Penal.
-          </p>
-        </div>
-        <div class="benefit">
-          <div id="benefit-2" class="benefit-img"></div>
-          <p>
-            Direito Civil.
-          </p>
-        </div>
-        <div class="benefit">
-          <div id="benefit-3" class="benefit-img"></div>
-          <p>
-            Direito do Consumidor.
-          </p>
-        </div>
-        <div class="benefit">
-          <div id="benefit-4" class="benefit-img"></div>
-          <p>
-            Direito de família.
-          </p>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/justice-36x36.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">Início</a>
+          <a class="nav-link" href="#key-benefits">Serviços</a>
+          <a class="nav-link" href="#sobre">Sobre</a>
+          <a class="nav-link" href="#footer">Contato</a>
         </div>
       </div>
-    </section>
-    <section id="location">
-      <div id="address">
-        <div id="address-details">
-          <p>"Mas a retórica é útil, porque</p>
-          <p>a verdade e a justiça são por natureza</p>
-          <p>mais fortes que os seus contrários"</p>
-          <p> -Aristóteles </p>
+    </div>
+  </nav>
+
+  <header id="event-subscription">
+    <div id="disclaimer">
+      <h2>Fabrício Guglielmi Advocacia</h2>
+      <p class="about-event">
+        Assessoria Jurídica em Gravataí-RS
+      </p>
+      <p>Dr. Fabrício Guglielmi</p>
+      <p class="event-date">OAB/RS: 123.726</p>
+    </div>
+    <div id="subscription-form">
+      <p>Preencha o formulário e solicite uma consulta</p>
+      <form action="https://formsubmit.co/advfabricioguglielmi@hotmail.com" method="POST">
+        <div class="form-group">
+          <input type="text" placeholder="Digite seu nome" required />
         </div>
-      </div>
-      <div id="about-location">
-        <h3>Advocacia Especializada</h3>
+        <div class="form-group">
+          <input type="email" placeholder="Digite seu melhor e-mail" required />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Número de Whatsapp" required />
+        </div>
+        <div class="form-group">
+          <select name="interest" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="civil">Direito Civil</option>
+            <option value="penal">Direito Penal</option>
+            <option value="consumidor">Direito do Consumidor</option>
+            <option value="familia">Direito de Família</option>
+            <option value="other">Outros assuntos</option>
+          </select>
+          <textarea name="msg" id="msg" placeholder="Digite sua mensagem:" required></textarea>
+          <br>
+          <input type="checkbox" checked required name="LGPD" value="Ok">
+          Estou de acordo com <a href="politica-de-privacidade.html"><strong>Política de Privacidade</strong></a>
+        </div>
+        <input type="submit" class="btn" value="Quero uma consulta" />
+        <input type="hidden" name="_next" value="https://fabricioguglielmi.vercel.app">
+      </form>
+    </div>
+  </header>
+  <section id="key-benefits">
+    <h2>Advocacia e Assistência Jurídica nas seguintes áreas:</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <div id="benefit-1" class="benefit-img"></div>
         <p>
-          Trabalhamos com parcerias especializadas nas mais diversas áreas do Direito, sempre buscando um atendimento humanizado, personalizado, com respeito e ética.
+          Direito Penal.
         </p>
       </div>
-    </section>
-    <section id="details">
-      <div class="detail" id="detail-1">
-        <img src="img/tribunal.jpg" alt="" />
-        <div class="detail-description">
-          <h3>Conheça um pouco do nosso trabalho</h3>
-          <p>“O advogado é indispensável à administração da justiça.” Art. 133 Constituição Federal de 1988</p>
-        </div>
+      <div class="benefit">
+        <div id="benefit-2" class="benefit-img"></div>
+        <p>
+          Direito Civil.
+        </p>
       </div>
-      <div class="detail" id="detail-2">
-        <div class="detail-description">
-          <h3>Direito Penal</h3>
-          <ul>
-            <li>Acompanhamento no processo penal</li>
-            <li>Atuação em delegacias</li>
-            <li>Lei de drogas</li>
-            <li>Crime de trânsito</li>
-            <li>Lei de armas</li>
-          </ul>
-        </div>
-        <img src="img/penal3.webp" alt="" />
+      <div class="benefit">
+        <div id="benefit-3" class="benefit-img"></div>
+        <p>
+          Direito do Consumidor.
+        </p>
       </div>
-      <div class="detail" id="detail-3">
-        <img src="img/civil.jpg" alt="" />
-        <div class="detail-description">
-          <h3>Direito Civil</h3>
-          <ul>
-            <li>Contratos</li>
-            <li>Ação de reparação de danos</li>
-            <li>Ações imobiliárias</li>
-            <li>Ações de manutenção e reintegração de posse</li>
-          </ul>
-        </div>
+      <div class="benefit">
+        <div id="benefit-4" class="benefit-img"></div>
+        <p>
+          Direito de família.
+        </p>
       </div>
-      <div class="detail" id="detail-4">
-        <div class="detail-description">
-          <h3>Direito do Consumidor</h3>
-          <ul>
-            <li>Direitos básicos do consumidor</li>
-            <li>Responsabilidade pelo fato do produto e do serviço</li>
-            <li>Responsabilidade pelo vício do produto e do serviço</li>
-            <li>Práticas abusivas</li>
-          </ul>
-        </div>
-        <img src="img/consumidor2.jpg" alt="" />
+    </div>
+  </section>
+  <section id="location">
+    <div id="address">
+      <div id="address-details">
+        <p>"Mas a retórica é útil, porque</p>
+        <p>a verdade e a justiça são por natureza</p>
+        <p>mais fortes que os seus contrários"</p>
+        <p> -Aristóteles </p>
       </div>
-      <div class="detail" id="detail-5">
-        <img src="img/familia2.jpg" alt="" />
-        <div class="detail-description">
-          <h3>Direito de Família</h3>
-          <ul>
-            <li>Ação de alimentos</li>
-            <li>Ação negatória de paternidade</li>
-            <li>Reconhecimento e extinção da união estável</li>
-            <li>Ação de guarda</li>
-          </ul>
-        </div>
+    </div>
+    <div id="about-location">
+      <h3>Advocacia Especializada</h3>
+      <p>
+        Trabalhamos com parcerias especializadas nas mais diversas áreas do Direito, sempre buscando um atendimento
+        humanizado, personalizado, com respeito e ética.
+      </p>
+    </div>
+  </section>
+  <section id="details">
+    <div class="detail" id="detail-1">
+      <img src="img/tribunal.jpg" alt="" />
+      <div class="detail-description">
+        <h3>Conheça um pouco do nosso trabalho</h3>
+        <p>“O advogado é indispensável à administração da justiça.” Art. 133 Constituição Federal de 1988</p>
       </div>
-    </section>
+    </div>
+    <div class="detail" id="detail-2">
+      <div class="detail-description">
+        <h3>Direito Penal</h3>
+        <ul>
+          <li>Acompanhamento no processo penal</li>
+          <li>Atuação em delegacias</li>
+          <li>Lei de drogas</li>
+          <li>Crime de trânsito</li>
+          <li>Lei de armas</li>
+        </ul>
+      </div>
+      <img src="img/penal3.webp" alt="" />
+    </div>
+    <div class="detail" id="detail-3">
+      <img src="img/civil.jpg" alt="" />
+      <div class="detail-description">
+        <h3>Direito Civil</h3>
+        <ul>
+          <li>Contratos</li>
+          <li>Ação de reparação de danos</li>
+          <li>Ações imobiliárias</li>
+          <li>Ações de manutenção e reintegração de posse</li>
+        </ul>
+      </div>
+    </div>
+    <div class="detail" id="detail-4">
+      <div class="detail-description">
+        <h3>Direito do Consumidor</h3>
+        <ul>
+          <li>Direitos básicos do consumidor</li>
+          <li>Responsabilidade pelo fato do produto e do serviço</li>
+          <li>Responsabilidade pelo vício do produto e do serviço</li>
+          <li>Práticas abusivas</li>
+        </ul>
+      </div>
+      <img src="img/consumidor2.jpg" alt="" />
+    </div>
+    <div class="detail" id="detail-5">
+      <img src="img/familia2.jpg" alt="" />
+      <div class="detail-description">
+        <h3>Direito de Família</h3>
+        <ul>
+          <li>Ação de alimentos</li>
+          <li>Ação negatória de paternidade</li>
+          <li>Reconhecimento e extinção da união estável</li>
+          <li>Ação de guarda</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <section id="sobre" class="perfil-container">
-      <div class="container">
-        <div class="perfil-wraper">
-          <div class="perfil-wraper2">
-          <div class="img-perfil"></div><!--img-perfil-->
+  <section id="sobre" class="perfil-container">
+    <div class="container">
+      <div class="perfil-wraper">
+        <div class="perfil-wraper2">
+          <div class="img-perfil"></div>
+          <!--img-perfil-->
           <div class="texto-perfil">
             <h2>Dr. Fabrício Guglielmi</h2>
             <h2>OAB/RS 123.726</h2>
             <p>
-              Bacharel em Direito pela Ulbra Gravataí RS - 2019.<br/>
-              Advogado OAB/RS 123.726 - subseção Gravataí.<br/>
-              Pós-graduado em Direito Público pela LEGALE - 2021.<br/>
-              Pós-graduando em Direito Civil e Processo Civil pela LEGALE.<br/>
-              Membro da Comissão de Criminalistas da subseção Gravataí - OAB/RS.<br/>
+              Bacharel em Direito pela Ulbra Gravataí RS - 2019.<br />
+              Advogado OAB/RS 123.726 - subseção Gravataí.<br />
+              Pós-graduado em Direito Público pela LEGALE - 2021.<br />
+              Pós-graduando em Direito Civil e Processo Civil pela LEGALE.<br />
+              Membro da Comissão de Criminalistas da subseção Gravataí - OAB/RS.<br />
             </p>
-          </div><!--texto-perfil-->
-        </div><!--perfil-wraper2-->
-        </div><!--perfil-wraper-->
-      </div><!--container-->
-    </section><!--perfil-container-->
-
-    <section id="cta">
-      <h3>Solicite uma consulta:</h3>
-      <a href="#subscription-form">
-      <button class="btn">Solicitar consulta</button></a>
-    </section>
-
-    <button onclick="backToTop()" id="btntop">^</button>
-
-    <footer id="footer">
-      <h3>Fabrício Guglielmi Advocacia</h3>
-      <h4>OAB/RS: 123.726</h4>
-      <p>Gravataí RS</p><br/>
-      <p>Entre em contato: <span>advfabricioguglielmi@hotmail.com</span></p>
-      <p>Ou pelo telefone: <span>(51) 98218-2199</span></p><br/>
-      <div class="icons">
-        <h2>Conecte-se conosco:</h2>
-        <a href="https://instagram.com/advfabricioguglielmi" target="_blank"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/fabr%C3%ADcioguglielmiadvogado/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <!--texto-perfil-->
+        </div>
+        <!--perfil-wraper2-->
       </div>
-    </footer>
-    <footer2>
-      <p>&copy; 2022 - Fabrício Guglielmi Advocacia | with ♥ by: <a href="https://fabiosouttodev.vercel.app/" target="_blank"> Fabio Soutto Dev </a>| "In code we trust"</p>
-    </footer2>
+      <!--perfil-wraper-->
+    </div>
+    <!--container-->
+  </section>
+  <!--perfil-container-->
 
-    <!--bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <!--fontawesom-->
-    <script src="https://kit.fontawesome.com/3ed642bbbb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--JS pessoal-->
-    <script src="js/script.js"></script>
-    <!--botão whatsapp-->
-    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5551982182199" style="position:fixed;width:60px;height:60px;bottom:70px;right:30px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000;" target="_blank">
+  <section id="cta">
+    <h3>Solicite uma consulta:</h3>
+    <a href="#subscription-form">
+      <button class="btn">Solicitar consulta</button></a>
+  </section>
+
+  <button onclick="backToTop()" id="btntop">^</button>
+
+  <footer id="footer">
+    <h3>Fabrício Guglielmi Advocacia</h3>
+    <h4>OAB/RS: 123.726</h4>
+    <p>Gravataí RS</p><br />
+    <p>Entre em contato: <span>advfabricioguglielmi@hotmail.com</span></p>
+    <p>Ou pelo telefone: <span>(51) 98218-2199</span></p><br />
+    <div class="icons">
+      <h2>Conecte-se conosco:</h2>
+      <a href="https://instagram.com/advfabricioguglielmi" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/fabr%C3%ADcioguglielmiadvogado/" target="_blank"><i
+          class="fa fa-linkedin"></i></a>
+    </div>
+  </footer>
+  <footer2>
+    <p>&copy; 2022 - Fabrício Guglielmi Advocacia | with ♥ by: <a href="https://fabiosouttodev.vercel.app/"
+        target="_blank"> Fabio Soutto Dev </a>| "In code we trust"</p>
+  </footer2>
+
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!--fontawesom-->
+  <script src="https://kit.fontawesome.com/3ed642bbbb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--JS pessoal-->
+  <script src="js/script.js"></script>
+  <!--botão whatsapp-->
+  <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5551982182199"
+    style="position:fixed;width:60px;height:60px;bottom:70px;right:30px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000;"
+    target="_blank">
     <i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
-  </body>
+</body>
+
 </html>
